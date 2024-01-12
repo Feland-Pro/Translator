@@ -1,39 +1,37 @@
-# Translator
-translate-extension/
-|-- manifest.json
-|-- popup.html
-|-- popup.js
-|-- background.js
-|-- content.js
-|-- icon.png
-|-- config/
-|   |-- config.json
-|-- lib/
-|   |-- jquery.js
-|-- styles/
-|   |-- popup.css
-|   |-- content.css
-|-- scripts/
-|   |-- translation.js
-|-- logs/
-|   |-- error.log
+# Translate Extension
+
+Translate Extension is a Google Chrome extension that allows users to translate websites with a shortcut.
+
+## Features
+
+- Detect the original website's language
+- Select a target language
+- Split screen for the original and translated content
+- Adjustable split screen
+- Text highlighting on hover
+- Automatic translation on URL change
+- Toggle translation with a shortcut
+- Remember the selected target language
 
 
-manifest.json: Configuration file for the Chrome extension.
-popup.html: HTML file for the extension popup.
-popup.js: JavaScript file for handling the popup logic.
-background.js: Background script for handling global extension logic.
-content.js: Content script injected into web pages to manipulate DOM.
-icon.png: Icon for the extension.
-config/: Folder for storing configuration files.
-config.json: Configuration file for the extension settings.
-lib/: Folder for external libraries or dependencies.
-jquery.js: Example external library (if needed).
-styles/: Folder for CSS stylesheets.
-popup.css: Styles for the popup.
-content.css: Styles for the content script.
-scripts/: Folder for additional JavaScript files.
-translation.js: Separate file for translation-related logic.
-logs/: Folder for log files.
-error.log: Log file for error handling.
-This structure separates different concerns, making it easier to manage and organize your code. You can further modularize and divide your scripts based on functionality. Feel free to adapt it based on your specific project needs.
+## Getting Started
+
+1. Clone the repository: `git clone https://github.com/your-username/translate-extension.git`
+2. Load the extension in Chrome by navigating to `chrome://extensions/`, enabling "Developer mode," and clicking "Load unpacked."
+
+## Usage
+
+1. Open a website in Chrome.
+2. Press the extension shortcut (`Ctrl+Shift+T`) to initiate translation.
+3. Select the target language from the popup.
+4. The website will be split into the original and translated versions.
+
+## Configuration
+
+- Edit `config/config.json` to adjust extension configurations.
+
+## Dependencies
+
+- [Add any dependencies or libraries used in your project]
+
+

@@ -95,7 +95,7 @@ function adjustSplitScreen(percentage) {
 
 function translateWebsite() {
   // Replace 'YOUR_API_KEY' with your actual Google Translate API key
-  const apiKey = 'YOUR_API_KEY';
+  const apiKey = 'AIzaSyBcRDogQBY0PtET1dopOB4Jluv1Xjc-cG0';
   const apiUrl = 'https://translation.googleapis.com/language/translate/v2';
 
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
